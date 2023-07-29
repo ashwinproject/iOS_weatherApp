@@ -9,7 +9,7 @@ class ModelData: ObservableObject {
     @Published var forecast: Forecast? //to hold the forecast data
     @Published var addressLocation: String = "n/a" // empty string to use user location
     
-    let APIKEY = "79040a34cfa153bfc85cebb33b65413c"
+    let APIKEY = "xxxxxxxxxxxxxxx"
     
     init() {
         self.forecast = load("london.json")
