@@ -5,7 +5,7 @@ class AirPollutionViewModel: ObservableObject {
     @Published var airPollutionData: AirPollution?
     private var forecast: Forecast?
     
-    let APIKEY = "79040a34cfa153bfc85cebb33b65413c"
+    let APIKEY = "xxxxxxxxxxx"
     
     init() {
         self.forecast = load("london.json")
